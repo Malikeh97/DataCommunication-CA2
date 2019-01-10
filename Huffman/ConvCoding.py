@@ -33,7 +33,6 @@ class ConvolutionalCoding:
         return;
 
     def encode_string(self):
-        self.cur_state = 0
         for i in range(len(self.input_string)):
             self.update_state(self.input_string[i])
         return self.encoded_str

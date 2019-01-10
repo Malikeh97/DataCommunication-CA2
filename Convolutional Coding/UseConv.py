@@ -6,4 +6,4 @@ CC = ConvolutionalCoding(input_txt)
 
 encoded_str = CC.encode_string()
 
-print("Encoded String is:", encoded_str)
+print("Encoded String is:" + encoded_str)
